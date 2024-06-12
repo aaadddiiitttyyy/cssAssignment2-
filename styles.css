@@ -1,0 +1,81 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Wide Latin', sans-serif;
+    height: 100px; /* Adjusted height for larger header */
+}
+
+header h1, header h2 {
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+header h1 {
+    font-size: 3em; /* Double font size for "Fan Ikko Naar" */
+}
+
+main {
+    padding: 20px;
+    background-image: url('karan.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#lyrics {
+    font-family: 'Courier New', monospace;
+    font-size: 1.5em;
+    line-height: 1.6;
+    color: white;
+}
+
+/* Fonts for lyrics */
+#lyrics p:nth-child(odd) {
+    font-family: 'Amasis MT Pro Black', sans-serif;
+}
+
+#lyrics p:nth-child(even) {
+    font-family: 'Bradley Hand ITC', serif;
+}
+
+#lyrics p:last-child {
+    font-family: 'Wide Latin', sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer p {
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+
+.highlight {
+    background-color: rgb(14, 14, 4); /* Highlight color */
+}
